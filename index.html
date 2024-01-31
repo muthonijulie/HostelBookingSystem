@@ -15,82 +15,62 @@
         />
         <div class="overlay"></div>
       </div>
-      <div class="content-container">
-        <form action="">
-          <div
-            style="
-              width: 90%;
-              height: 45lh;
-              border-radius: 18px;
-              border: 3px #5d5d81 solid;
-              text-align: justify;
-            font:700;
-            "
-          >
-            <label for="hostelname">Hostel Name:</label><br />
-            <select id="hostelname" name="hostelname" size="1">
-              <option value="Batian">Batian</option>
-              <option value="Batian">Serengeti</option>
-              <option value="Batian">Mt Kenya</option>
-              <option value="Batian">Batian</option></select
-            ><br />
-
-            <label for="room">Room:</label><br />
-            <select id="room" name="room" size="1">
-              <option value="B1">B1</option>
-              <option value="B2">B2</option>
-              <option value="B3">B3</option>
-              <option value="B4">B4</option>
-              <option value="S1">S1</option>
-              <option value="S2">S2</option>
-              <option value="S3">S3</option>
-              <option value="S4">S4</option>
-              <option value="M1">M1</option>
-              <option value="M2">M2</option>
-              <option value="M3">M3</option>
-              <option value="M4">M4</option></select
-            ><br />
-
-            <label for="bunk">Bunk:</label><br />
-            <select id="bunk" name="bunk" size="1">
-              <option value="lower">LOWER</option>
-              <option value="lower">UPPER</option></select
-            ><br />
-
-            <label for="gender">Gender:</label><br />
-            <label for="male">Male</label>
-            <input type="radio" id="male" name="gender" value="male" />
-
-            <label for="female">Female</label>
-            <input
-              type="radio"
-              id="female"
-              name="gender"
-              value="female"
-            /><br />
-            <div
-              style="
-                width: 30%;
-                height: 10%;
-                background: #5d5d81;
-                text-align: center;
-              "
-            >
-              <input type="submit" name="submit" value="Book" />
-            </div>
-          </div>
-        </form>
+      <div class="container">
+        <div class="border-box"></div>
+        <div class="text hostel-name">Hostel Name:</div>
+        <div class="text gender">Gender:</div>
+        <div class="text room-name">Room:</div>
+        <div class="room-box">
+          <select id="room" name="room" size="1">
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="B3">B3</option>
+            <option value="B4">B4</option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+            <option value="S3">S3</option>
+            <option value="S4">S4</option>
+            <option value="M1">M1</option>
+            <option value="M2">M2</option>
+            <option value="M3">M3</option>
+            <option value="M4">M4</option>
+          </select>
+        </div>
+        <div class="hostel-name-box">
+          <select id="hostel-name-box" name="hostel-name-box" size="1">
+            <option value="Batian">Batian</option>
+            <option value="Serengeti">Serengeti</option>
+            <option value="Mt Kenya">Mt Kenya</option>
+            <option value="Batian">Batian</option>
+          </select>
+        </div>
+        <div class="text bunk-name">Bunk:</div>
+        <div class="bunk-box">
+          <select id="bunk" name="bunk" size="1">
+            <option value="lower">LOWER</option>
+            <option value="lower">UPPER</option></select
+          ><br />
+        </div>
+        <div class="gender-option male">
+          Male
+          <input type="radio" id="male" name="gender" value="male" />
+        </div>
+        <div class="book-button">
+          <input type="submit" name="submit" value="Book" />
+        </div>
+        <div class="gender-option female">
+          Female
+          <input type="radio" id="female" name="gender" value="female" />
+        </div>
       </div>
+    </div>
 
-      <div class="header">
-        <div class="header-bg"></div>
-        <div class="menu-icon">
-          <div class="icon-container">
-            <div class="icon"></div>
-            <div class="icon-bar">
-              
-            </div>
-          </div>
+    <div class="header">
+      <div class="header-bg"></div>
+      <div class="menu-icon">
+        <div class="icon-container">
+          <div class="icon"></div>
+          <div class="icon-bar"></div>
         </div>
       </div>
     </div>

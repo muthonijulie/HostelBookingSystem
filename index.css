@@ -2,17 +2,15 @@ body, html {
   margin: 0;
   padding: 0;
   height: 50%;
-  justify-content: center;
-        align-items: center;
-        min-height: 100vh;
+  
 }
 
-.container {
+/* .container {
   width: 50%;
   height: 50%;
   position: relative;
   background: white;
-}
+} */
 
 .background-container {
   width: 50%;
@@ -54,7 +52,126 @@ body, html {
   position: absolute;
   
 }
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 
+.border-box {
+  width: 1720px;
+  height: 910px;
+  left: 60px;
+  top: 20px;
+  position: absolute;
+  border-radius: 74px;
+  border: 3px #5D5D81 solid;
+}
+
+.text {
+  left: 170px;
+  top: 109px;
+  position: absolute;
+  color: black;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.hostel-name{
+  width: 852px;
+  height: 96px;
+  left: 170px;
+  top: 59px;
+  position: absolute;
+  
+}
+.bunk-name {
+  width: 852px;
+  height: 96px;
+  left: 170px;
+  top: 435px;
+  position: absolute;
+  
+}
+.room-name{
+  width: 852px;
+  height: 96px;
+  left: 170px;
+  top: 250px;
+  position: absolute;
+  
+}
+
+.room-box {
+  width: 852px;
+  height: 120px;
+  left: 170px;
+  top: 300px;
+  position: absolute;
+  border: 4px #BFCDE0 solid;
+}
+
+.hostel-name-box {
+  width: 852px;
+  height: 120px;
+  left: 170px;
+  top: 109px;
+  position: absolute;
+  border: 4px #BFCDE0 solid;
+}
+
+.bunk-box {
+  width: 852px;
+  height: 120px;
+  left: 170px;
+  top: 480px;
+  position: absolute;
+  border: 4px #BFCDE0 solid;
+}
+
+
+.gender {
+  top: 617px;
+}
+
+.gender-option {
+  width: 131px;
+  height: 39px;
+  left: 190px;
+  top: 658px;
+  position: absolute;
+  font-size:30px ;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.male {
+  left: 175px;
+}
+
+.female {
+  left: 303px;
+}
+
+.book-button {
+  width: 838px;
+  height: 90px;
+  left: 453px;
+  top: 793px;
+  position: absolute;
+  background: #5D5D81;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+}
 
 .header {
   width: 1920px;
