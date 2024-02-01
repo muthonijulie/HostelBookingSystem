@@ -105,8 +105,7 @@ body, html {
 }
 
 .room-box {
-  width: 852px;
-  height: 120px;
+  
   left: 170px;
   top: 300px;
   position: absolute;
@@ -114,17 +113,15 @@ body, html {
 }
 
 .hostel-name-box {
-  width: 852px;
-  height: 120px;
+  
   left: 170px;
   top: 109px;
   position: absolute;
   border: 4px #BFCDE0 solid;
-}
+} 
 
 .bunk-box {
-  width: 852px;
-  height: 120px;
+ 
   left: 170px;
   top: 480px;
   position: absolute;
