@@ -17,11 +17,13 @@
       </div>
       <div class="container">
         <div class="border-box"></div>
+        <form action="">
         <div class="text hostel-name">Hostel Name:</div>
         <div class="text gender">Gender:</div>
         <div class="text room-name">Room:</div>
         <div class="room-box">
           <select id="room" name="room" size="1">
+            <option value="">(select one)</option>
             <option value="B1">B1</option>
             <option value="B2">B2</option>
             <option value="B3">B3</option>
@@ -37,16 +39,18 @@
           </select>
         </div>
          <div class="hostel-name-box"> 
-          <select id="hostel-name-box" name="hostel-name-box"  maxlength="50" size="1">
+          <select id="hostel-name-box" name="hostel-name-box" size="1">
+            <option value="">(select one)</option>
             <option value="Batian">Batian</option>
             <option value="Serengeti">Serengeti</option>
             <option value="Mt Kenya">Mt Kenya</option>
-            <option value="Batian">Batian</option>
+            <option value="Simba">Simba</option>
           </select>
         </div> 
         <div class="text bunk-name">Bunk:</div>
         <div class="bunk-box">
           <select id="bunk" name="bunk" size="1">
+            <option value="">(select one)</option>
             <option value="lower">LOWER</option>
             <option value="lower">UPPER</option></select
           ><br />
@@ -63,14 +67,16 @@
           <input type="radio" id="female" name="gender" value="female" />
         </div>
       </div>
+    </form>
     </div>
 
     <div class="header">
       <div class="header-bg"></div>
-      <div class="menu-icon">
-        <div class="icon-container">
-          <div class="icon"></div>
-          <div class="icon-bar"></div>
+      
+          <div class="img"><img src="image/menu.png" style="
+            height: 20px;
+            width: 30px;
+        "></div>
         </div>
       </div>
     </div>

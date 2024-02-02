@@ -1,23 +1,14 @@
-body, html {
+body,html {
   margin: 0;
   padding: 0;
   height: 50%;
   
 }
 
-/* .container {
-  width: 50%;
-  height: 50%;
-  position: relative;
-  background: white;
-} */
-
 .background-container {
   width: 50%;
   height: 50%;
   position: relative;
-  
-
 }
 
 .background-container img {
@@ -29,7 +20,7 @@ body, html {
 }
 
 .overlay {
-  width: 1920px;
+  width: 2120px;
   height: 1080px;
   position: absolute; 
   background-image: url(image/room.jpg);
@@ -60,8 +51,8 @@ body, html {
 
 .border-box {
   width: 1720px;
-  height: 910px;
-  left: 60px;
+  height: 860px;
+  left: 180px;
   top: 20px;
   position: absolute;
   border-radius: 74px;
@@ -73,105 +64,106 @@ body, html {
   top: 109px;
   position: absolute;
   color: black;
-  font-size: 32px;
+  font-size: 35px;
   font-family: Inter;
-  font-weight: 700;
+  font-weight: 800;
   word-wrap: break-word;
 }
 
 .hostel-name{
   width: 852px;
-  height: 96px;
-  left: 170px;
-  top: 59px;
+  height: 116px;
+  left: 310px;
+  top: 69px;
   position: absolute;
   
 }
 .bunk-name {
   width: 852px;
   height: 96px;
-  left: 170px;
-  top: 435px;
+  left: 310px;
+  top: 415px;
   position: absolute;
   
 }
 .room-name{
   width: 852px;
   height: 96px;
-  left: 170px;
-  top: 250px;
+  left: 310px;
+  top: 240px;
   position: absolute;
+  
+}
+select {
+  margin: 10px 0 0 0;
+  width: 800px;
+  min-height: 4em;
+  background-color: #5D5D81;
+  font-size: 20px;
   
 }
 
 .room-box {
-  
-  left: 170px;
-  top: 300px;
+  left: 310px;
+  top: 290px;
   position: absolute;
-  border: 4px #BFCDE0 solid;
+  
 }
 
 .hostel-name-box {
-  
-  left: 170px;
-  top: 109px;
+  left: 310px;
+  top: 116px;
   position: absolute;
-  border: 4px #BFCDE0 solid;
-} 
-
-.bunk-box {
- 
-  left: 170px;
-  top: 480px;
-  position: absolute;
-  border: 4px #BFCDE0 solid;
 }
 
+.bunk-box {
+  left: 310px;
+  top: 465px;
+  position: absolute;
+}
+ 
 
 .gender {
-  top: 617px;
+  top: 585px;
+  left:310px;
 }
 
 .gender-option {
-  width: 131px;
-  height: 39px;
-  left: 190px;
-  top: 658px;
+  left: 270px;
+  top: 630px;
   position: absolute;
-  font-size:30px ;
-  border-radius: 9999px;
+  font-size:32px ;
   display: flex;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .male {
-  left: 175px;
+  left: 330px;
 }
 
 .female {
-  left: 303px;
+  left: 460px;
 }
 
-.book-button {
-  width: 838px;
-  height: 90px;
-  left: 453px;
-  top: 793px;
+ .book-button {
+  left: 640px;
+  top: 733px;
   position: absolute;
+ } 
+input[type="submit"] {
+ position: center;
+  height: 3em;
   background: #5D5D81;
-  display: flex;
+  min-width: 800px;
   align-items: center;
   justify-content: center;
-  color: black;
-  font-size: 32px;
+  font-size: 35px;
   font-family: Inter;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .header {
-  width: 1920px;
+  width: 2120px;
   height: 122px;
   left: 0;
   top: 0;
@@ -179,37 +171,19 @@ body, html {
 }
 
 .header-bg {
-  width: 1920px;
+  width: 2120px;
   height: 122px;
   position: absolute;
   background: #5D5D81;
 }
 
-.menu-icon {
-  width: 49px;
-  height: 62px;
+
+
+.img {
   left: 30px;
   top: 30px;
   position: absolute;
-}
-
-.icon-container {
-  width: 49px;
-  height: 62px;
-  position: absolute;
-}
-
-.icon {
-  width: 49px;
-  height: 62px;
-  position: absolute;
-}
-
-.icon-bar {
-  width: 30px;
-  height: 30.92px;
-  position: absolute;
-  background: black;
+ 
 }
 
 
